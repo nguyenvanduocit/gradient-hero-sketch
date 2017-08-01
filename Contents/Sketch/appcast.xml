@@ -2,7 +2,7 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
     <title>Gradient Hero by Duoc Nguyen</title>
-    <link>https://raw.githubusercontent.com/nguyenvanduocit/gradient-hero-sketch/GradientHero.sketchplugin/Contents/Sketch/appcast.xml</link>
+    <link>https://raw.githubusercontent.com/nguyenvanduocit/gradient-hero-sketch/master/Contents/Sketch/appcast.xml</link>
     <description>The hero help you in gradients.</description>
     <language>en</language>
     <item>
