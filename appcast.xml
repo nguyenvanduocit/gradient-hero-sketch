@@ -6,15 +6,15 @@
     <description>The hero help you in gradients.</description>
     <language>en</language>
     <item>
-      <title>1.0.0</title>
+      <title>1.0.2</title>
       <description>
         <![CDATA[
           <ul>
-            <li>First release</li>
+            <li>Test update</li>
           </ul>
         ]]>
       </description>
-      <pubDate>Tue, 1 August 2017 12:10:42 +0000</pubDate>
+      <pubDate>Tue, 2 August 2017 12:10:42 +0000</pubDate>
       <enclosure url="https://github.com/nguyenvanduocit/gradient-hero-sketch/releases/download/1.0.0/GradientHero.sketchplugin.zip" type="application/octet-stream" sparkle:version="1.0"/>
     </item>
   </channel>
