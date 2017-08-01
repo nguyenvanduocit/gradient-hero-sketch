@@ -1,0 +1,42 @@
+@import 'common/MochaJSDelegate.js';
+@import 'common/Panel.cocoascript';
+@import 'common/PlaceLogo.js';
+@import 'common/SelectedShape.js';
+@import 'common/ShowAlert.js';
+@import 'common/ApplyGradient.js';
+@import 'common/GetContext.js';
+
+function onGradientSelected (webView, webFrame) {
+  var panel = webView.superview().window();
+  var windowObject = webView.windowScriptObject();
+  var request = NSURL.URLWithString(webView.mainFrameURL()).fragment();
+  var data = windowObject.valueForKey("data");
+  if (data) {
+    var gradient = JSON.parse(data);
+    applyGradient(gradient.gradient);
+  }
+
+}
+
+function openGradientWindow(context) {
+  var resourcePath = context.plugin.urlForResourceNamed('index.html').path();
+  var timestamp = Date.now();
+  var webviewResource = 'file://' + resourcePath + '#' + timestamp;
+  //var webviewResource = 'http://localhost:8080';
+  var panelSettings = {
+    width: 390,
+    height: 500,
+    backgroundColor: NSColor.whiteColor()
+  };
+
+  var delegateListeners = {
+    "webView:didChangeLocationWithinPageForFrame:": onGradientSelected
+  }
+
+  showPanel({
+    context: context,
+    webviewResource: webviewResource,
+    panelSettings: panelSettings,
+    delegateListeners: delegateListeners
+  });
+}
