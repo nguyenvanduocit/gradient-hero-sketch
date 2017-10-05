@@ -6,7 +6,7 @@
     <description>The hero help you in gradients.</description>
     <language>en</language>
     <item>
-      <title>1.0.2</title>
+      <title>1.0.3</title>
       <description>
         <![CDATA[
           <ul>
@@ -14,8 +14,8 @@
           </ul>
         ]]>
       </description>
-      <pubDate>Tue, 2 August 2017 12:10:42 +0000</pubDate>
-      <enclosure url="https://github.com/nguyenvanduocit/gradient-hero-sketch/releases/download/1.0.2/GradientHero.sketchplugin.zip" type="application/octet-stream" sparkle:version="1.0"/>
+      <pubDate>Thu, 5 October 2017 12:10:42 +0000</pubDate>
+      <enclosure url="https://github.com/nguyenvanduocit/gradient-hero-sketch/releases/download/1.0.3/GradientHero.sketchplugin.zip" type="application/octet-stream" sparkle:version="1.0"/>
     </item>
   </channel>
 </rss>
